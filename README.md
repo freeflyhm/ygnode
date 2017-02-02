@@ -1,7 +1,7 @@
 # ygnode
 
 [![Build Status](https://travis-ci.org/freeflyhm/ygnode.svg?branch=master)](https://travis-ci.org/freeflyhm/ygnode)
-
+[![Coverage Status](https://coveralls.io/repos/github/freeflyhm/ygnode/badge.svg?branch=master)](https://coveralls.io/github/freeflyhm/ygnode?branch=master)
 --------------------------
 docker build -t joe/ygnode:1.0.0 .
 
