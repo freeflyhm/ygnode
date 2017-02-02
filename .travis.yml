@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6"
+services:
+  - mongodb
+env:
+  - JWT_TOKEN_SECRET="XBY32jgvEbwV1ECJ5GOXmu1h" DB_HOST_TEST="localhost"
+after_script:
+  - npm run coverage
