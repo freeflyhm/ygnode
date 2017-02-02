@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/freeflyhm/ygnode.svg?branch=master)](https://travis-ci.org/freeflyhm/ygnode)
 [![Coverage Status](https://coveralls.io/repos/github/freeflyhm/ygnode/badge.svg?branch=master)](https://coveralls.io/github/freeflyhm/ygnode?branch=master)
+[![Code Climate](https://codeclimate.com/github/freeflyhm/ygnode/badges/gpa.svg)](https://codeclimate.com/github/freeflyhm/ygnode)
+
+
+newzxnode 是 full REST API 服务
+
 --------------------------
 docker build -t joe/ygnode:1.0.0 .
 
