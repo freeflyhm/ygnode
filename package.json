@@ -1,0 +1,44 @@
+ {
+  "name": "ygnode",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "yg node on docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --colors ./tests/*.js",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "zx",
+    "node",
+    "docker"
+  ],
+  "author": "joehe <leanbrown@live.cn>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "iconv-lite": "^0.4.13",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.15.1",
+    "mongoose": "^4.6.1",
+    "request": "^2.75.0",
+    "socket.io": "^1.4.8",
+    "socketio-jwt": "^4.5.0",
+    "underscore": "^1.8.3",
+    "urllib": "^2.17.0",
+    "validator": "^5.7.0",
+    "wechat-crypto": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "coveralls": "^2.11.13",
+    "mocha-lcov-reporter": "^1.2.0",
+    "istanbul": "^0.4.5",
+    "superagent": "^2.3.0",
+    "socket.io-client": "^1.4.8",
+    "jsdoc": "^3.4.1"
+  }
+}

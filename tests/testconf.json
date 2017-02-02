@@ -1,0 +1,23 @@
+{
+  "app": false,
+  "conn": false,
+  "controllersDengjipai": false,
+  "controllersFeestemp": false,
+  "controllersPingan": false,
+  "controllersServerman": false,
+  "controllersSetplace": false,
+  "controllersUser": false,
+  "controllersBp": false,
+  "controllersFlag": true,
+  "ctrl": false,
+  "io": false,
+  "logpath": false,
+  "model": false,
+  "schemasCompany": false,
+  "schemasDengjipai": false,
+  "schemasFeestemp": false,
+  "schemasServerman": false,
+  "schemasSetplace": false,
+  "schemasUser": false,
+  "zxutil": false
+}
